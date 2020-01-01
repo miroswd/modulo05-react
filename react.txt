@@ -44,3 +44,5 @@ SPA - Single Page Application -> Nunca vai recarregar totalmente
 >>> yarn add styled=components
 
 instalar a extensão 'styled components'
+
+// Estilos Globais - estilos compartilhados na aplicação

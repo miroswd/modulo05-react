@@ -2,3 +2,40 @@
 O react criou um cli, um código de linha de comando, que já vem com o webpack/babel, tudo encapsulado numa biblioteca
 
 >>> yarn create react-app nome_projeto
+
+start: em desenvolvimento, roda a aplicação via webpack
+build: produção
+test: roda os testes
+eject: para configurar o webpack/babel mais a fundo
+
+// Padronização
+Eslint, Prettier e EditorConfig
+
+### EditorConfig
+generate .editorconfig
+  mudo os falses pro true
+  incluo um end_of_libe = lf // para deixar no padrão unix
+
+### Eslint
+>>> yarn add eslint -D
+>>> yarn eslint --init
+As únicas diferenças em relação à padronização no Node, é que roda no browser e é selecionada a opção React
+>>> yarn
+
+### Prettier
+>>> yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+
+/ Configurando o .eslintrc.js
+extends - incluo prettier e prettier/react
+parser - babel-eslint
+plugins - prettier
+rules
+
+eslint - alerta
+prettier - corrige
+
+// Roteamento no React
+SPA - Single Page Application -> Nunca vai recarregar totalmente
+
+>>> yarn add react-router-dom # Roteamento no frontend
+

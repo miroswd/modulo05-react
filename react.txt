@@ -1,0 +1,4 @@
+// Configurando o projeto
+O react criou um cli, um código de linha de comando, que já vem com o webpack/babel, tudo encapsulado numa biblioteca
+
+>>> yarn create react-app nome_projeto

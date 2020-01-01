@@ -24,3 +24,9 @@ yarn eject # Permite configurar o webpack/babel
   <li>Prettier</li>
   <li>EditorConfig</li>
 </ul>
+<br/>
+<h3>Conceitos:</h3>
+<ul>
+  <li>Roteamento</li>
+  <li>Styled Components</li>
+</ul>

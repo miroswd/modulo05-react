@@ -86,7 +86,7 @@ export default class Main extends Component {
           {repositories.map(rep => (
             <li key={rep.name}>
               <span>{rep.name}</span>
-              <a href="#">Detalhes</a>
+              {/* <a href="#">Detalhes</a> */}
             </li>
           ))}
         </List>

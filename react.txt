@@ -58,3 +58,5 @@ pra atrasar a conexão, no inspecionar elemento, network, online - slow
 
 // Definindo PropTypes - validando propriedades
 >>> yarn add prop-types
+
+** Toda vez q for criar um component, criar uma pastinha

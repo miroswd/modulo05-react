@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import api from '../../services/api';
+
+import { Container } from '../../components/Container';
+import { Loading, Owner } from './style';
 
 export default class Repository extends Component {
   // Como é um component de classe, posso definir as proptypes aqui mesmo
@@ -48,6 +52,22 @@ export default class Repository extends Component {
 
   render() {
     const { repository, issues, loading } = this.state;
-    return <h1>Repository</h1>;
+
+    if (loading) {
+      // Enquanto está sendo carregando
+      return <Loading>Carregando</Loading>;
+    }
+
+    // Retorna quando for carregado
+    return (
+      <Container>
+        <Owner>
+          <Link to="/">Voltar aos Repositórios</Link>
+          <img src={repository.owner.avatar_url} alt={repository.owner.login} />
+          <h1>{repository.name}</h1>
+          <p>{repository.description}</p>
+        </Owner>
+      </Container>
+    );
   }
 }

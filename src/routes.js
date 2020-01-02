@@ -13,7 +13,7 @@ export default function Routes() {
       <Switch>
         {/* exact -> busca exatamente aquela URL */}
         <Route path="/" exact component={Main} /> {/* Acessando a rota raiz */}
-        <Route path="/repository" component={Repository} />
+        <Route path="/repository/:rep" component={Repository} />
       </Switch>
     </BrowserRouter>
   );

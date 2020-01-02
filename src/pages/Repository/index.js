@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import api from '../../services/api';
 
-// import { Container } from './styles';
-
 export default class Repository extends Component {
+  // Como é um component de classe, posso definir as proptypes aqui mesmo
+  // Pra definir uma propriedade como objeto, usar shape
+  static propTypes = {
+    match: PropTypes.shape({
+      params: PropTypes.shape({
+        repository: PropTypes.string,
+      }),
+    }).isRequired,
+  };
+
   state = {
     repository: {}, // Como é um único repositório, tem q ser iniciado como um objeto
     issues: [],

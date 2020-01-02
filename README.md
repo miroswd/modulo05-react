@@ -30,3 +30,10 @@ yarn eject # Permite configurar o webpack/babel
   <li>Roteamento</li>
   <li>Styled Components</li>
 </ul>
+<br/>
+<h3>Estilização</h3>
+<ul>
+  <li>Animation</li>
+  <li>Flexbox</li>
+</ul>
+  

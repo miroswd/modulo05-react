@@ -12,7 +12,7 @@ export default createGlobalStyle`
     min-height: 100%;
   }
   body{
-    background:#7159c1;
+    background:#067D8E;
     -webkit-font-smoothing: antialiased !important; /* Deixa a fonte mais definida, !important pro browser não remover essa propriedade*/
   }
   body, input, button {

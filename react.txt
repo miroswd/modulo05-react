@@ -55,3 +55,5 @@ O encadeamento é adequado até 2 níveis, para ficar legível
 
 crio a pasta services junto com o arquivo api.js
 pra atrasar a conexão, no inspecionar elemento, network, online - slow
+
+// Listando repositórios

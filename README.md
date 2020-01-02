@@ -31,7 +31,7 @@ yarn eject # Permite configurar o webpack/babel
   <li>Styled Components</li>
 </ul>
 <br/>
-<h3>Estilização</h3>
+<h3>Estilização:</h3>
 <ul>
   <li>Animation</li>
   <li>Flexbox</li>

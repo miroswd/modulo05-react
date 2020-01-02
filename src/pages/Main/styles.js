@@ -75,3 +75,35 @@ export const SubmitButton = styled.button.attrs(props => ({
       }
     `}
 `;
+
+export const List = styled.ul`
+  list-style: none;
+  margin-top: 30px;
+
+  li {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    & + li {
+      /* Posso me referenciar ao elemento atual, no caso li
+         Aplica uma estilização entre os itens, que tenha um <li> antes
+      */
+      border-top: 1px solid #ddd;
+
+      /* Assim  me incomoda menos
+        border: 1px solid #ddd;
+        margin: 10px 0;
+        padding: 20px;
+       */
+    }
+
+    a {
+      color: #267d8d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+`;

@@ -45,4 +45,13 @@ SPA - Single Page Application -> Nunca vai recarregar totalmente
 
 instalar a extensão 'styled components'
 
-// Estilos Globais - estilos compartilhados na aplicação
+// Estilizando a página Main
+>>> yarn add react-icons # Importa os ícones mais famosos
+
+O encadeamento é adequado até 2 níveis, para ficar legível
+
+// Adicionando repositórios
+>>> yarn add axios #lib para requisições à api
+
+crio a pasta services junto com o arquivo api.js
+pra atrasar a conexão, no inspecionar elemento, network, online - slow

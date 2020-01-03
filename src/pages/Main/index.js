@@ -50,6 +50,7 @@ export default class Main extends Component {
 
       if (repoDup) {
         // throw 'Repositório Duplicado';
+
         throw new Error('Repositório duplicado');
       }
 
@@ -68,7 +69,6 @@ export default class Main extends Component {
         newRepo: '',
       });
     } catch (error) {
-      console.log(error);
       this.setState({ error: true });
     } finally {
       this.setState({ loading: false });

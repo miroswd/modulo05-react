@@ -117,7 +117,7 @@ export const IssueFilter = styled.div`
     outline: 0;
     background-color: #267d8d;
 
-    width: 70px;
+    width: 80px;
     padding: 5px;
     margin: 0 0.25rem;
 

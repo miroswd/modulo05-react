@@ -8,6 +8,7 @@
 
 #### Para iniciar a aplicação - Modo de Desenvolvimento:
 ```js
+yarn # Instala as dependências
 yarn start # Inicia a aplicação no browser, no modo de desenvolvimento
 ```
 <p>No input deve ser digitado: usuário/repositório</p>

@@ -1,10 +1,14 @@
 # Projeto com ReactJS
 
 ### Página inicial
-<img src="https://github.com/miroswd/modulo05-react/blob/master/main.png"/>
+<img src="https://github.com/miroswd/modulo05-react/blob/master/src/assets/main.png"/>
+
+
+### Em caso de erro
+<img src="https://github.com/miroswd/modulo05-react/blob/master/src/assets/error.png"/>
 
 ### Página de Repositórios
-<img src="https://github.com/miroswd/modulo05-react/blob/master/repository.png"/>
+<img src="https://github.com/miroswd/modulo05-react/blob/master/src/assets/repository.png"/>
 
 #### Para iniciar a aplicação - Modo de Desenvolvimento:
 ```js

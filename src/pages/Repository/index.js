@@ -24,17 +24,17 @@ export default class Repository extends Component {
     filters: [
       {
         state: 'all',
-        label: 'All',
+        label: 'Todas',
         active: true,
       },
       {
         state: 'open',
-        label: 'Open',
+        label: 'Abertas',
         active: false,
       },
       {
         state: 'closed',
-        label: 'Closed',
+        label: 'Fechadas',
         active: false,
       },
     ],

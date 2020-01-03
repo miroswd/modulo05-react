@@ -19,10 +19,12 @@ export const Form = styled.form`
   input {
     flex: 1; /**Ocupa todo espaço possível */
     padding: 7px 13px;
-    border: 1px solid #ddd;
+    border: 1px solid ${props => (props.error ? '#f15' : '#ddd')};
     border-radius: 4px;
     font-size: 16px;
     animation: ${rotate} 2s step-end infinite;
+
+    transition: border 0.25s ease-out;
   }
 `;
 

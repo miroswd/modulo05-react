@@ -103,3 +103,58 @@ export const IssueList = styled.ul`
     }
   }
 `;
+
+export const IssueFilter = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  button {
+    color: #fff;
+    font-weight: 600;
+
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    background-color: #267d8d;
+
+    width: 70px;
+    padding: 5px;
+    margin: 0 0.25rem;
+
+    &:hover {
+      transition: opacity 0.25 ease-in;
+      opacity: 0.8;
+      box-shadow: 0 0 2px black;
+    }
+
+    &:nth-child(${props => props.active + 1}) {
+      background-color: #3a4151;
+    }
+  }
+`;
+
+export const PageActions = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+
+  button {
+    transition: opacity 0.25s ease-in;
+    color: #fff;
+    background-color: #267d8d;
+    font-weight: 600;
+
+    border-radius: 4px;
+    outline: 0;
+    border: 0;
+    padding: 5px;
+
+    margin: 0 0.3rem;
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+`;
